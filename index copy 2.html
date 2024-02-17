@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sheets Data</title>
+</head>
+
+<body>
+
+    <table id="data-table">
+        <thead>
+            <!-- Table headers will go here -->
+        </thead>
+        <tbody>
+            <!-- Table data will go here -->
+        </tbody>
+    </table>
+
+    <script>        
+				var spreadsheet_id = '1-wHMfN7yIzWHRHv1FUPi9HNVwPz-hk-5TdnwZnL2UTA';
+				var tab_name = 0;
+				var api_key = ; 
+
+
+				var url = 'https://sheets.googleapis.com/v4/spreadsheets/' +
+           spreadsheet_id + '/values/' + tab_name +
+           '?alt=json&key=' + api_key;
+						($.getJSON(url, 'callback=?')).success(function(data) {
+							const entries = data.feed.entry;
+							const table = document.getElementById('data-table');
+							const numRows = parseInt(data.feed.gs$rowCount.$t);
+							const numCols = parseInt(data.feed.gs$colCount.$t);
+							
+							let html = '';
+							for (let row = 1; row <= numRows; row++) {
+									html += '<tr>';
+									for (let col = 1; col <= numCols; col++) {
+											const cell = entries.find(entry => parseInt(entry.gs$cell.row) === row && parseInt(entry.gs$cell.col) === col);
+											if (cell) {
+													if (row === 1) {
+															html += `<th>${cell.gs$cell.$t}</th>`;
+													} else {
+															html += `<td>${cell.gs$cell.$t}</td>`;
+													}
+											} else {
+													html += '<td></td>';
+											}
+									}
+									html += '</tr>';
+							}
+							
+							table.innerHTML = html;
+					};
+				
+				
+				
+    </script>
+</body>
+
+</html>
