@@ -58,8 +58,8 @@ document.addEventListener("DOMContentLoaded", function () {
 					"hasAdvantage": false
 				},
 				{
-					"name": "Ben",
-					"image": "./assets/Survivor-46-Ben-Katzman.jpg",
+					"name": "Moriah",
+					"image": "./assets/Survivor-46-Moriah-Gaynor.jpg",
 					"eliminated": false,
 					"hasIdol": false,
 					"hasAdvantage": false
@@ -124,8 +124,8 @@ document.addEventListener("DOMContentLoaded", function () {
 					"hasAdvantage": false
 				},
 				{
-					"name": "Moriah",
-					"image": "./assets/Survivor-46-Moriah-Gaynor.jpg",
+					"name": "David",
+					"image": "./assets//Survivor-46-David-Jelinsky.jpg",
 					"eliminated": false,
 					"hasIdol": false,
 					"hasAdvantage": false
