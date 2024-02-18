@@ -94,6 +94,8 @@ h1 {
 	.player {
 			text-align: center;
 			margin: 10px auto;
+			margin-right: 10%;
+			margin-left: 10%;
 	}
 
 	.player img {
