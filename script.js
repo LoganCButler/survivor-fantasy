@@ -6,22 +6,22 @@ document.addEventListener("DOMContentLoaded", function () {
 			"players": [
 				{
 					"name": "Soda",
-					"image": "https://www.goldderby.com/wp-content/uploads/2024/02/Survivor-46-Soda-Thompson.jpg",
+					"image": "./assets/Survivor-46-Soda-Thompson.jpg",
 					"eliminated": true
 				},
 				{
 					"name": "Kenzie",
-					"image": "https://www.goldderby.com/wp-content/uploads/2024/02/Survivor-46-Kenzie-Petty.jpg",
+					"image": "./assets/Survivor-46-Kenzie-Petty.jpg",
 					"eliminated": false
 				},
 				{
 					"name": "Randen",
-					"image": "https://www.goldderby.com/wp-content/uploads/2024/02/Survivor-46-Randen-Montalvo.jpg",
+					"image": "./assets/Survivor-46-Randen-Montalvo.jpg",
 					"eliminated": false
 				},
 				{
 					"name": "Tevin",
-					"image": "https://www.goldderby.com/wp-content/uploads/2024/02/Survivor-46-Tevin-Davis.jpg",
+					"image": "./assets/Survivor-46-Tevin-Davis.jpg",
 					"eliminated": false
 				},
 			]
@@ -31,22 +31,72 @@ document.addEventListener("DOMContentLoaded", function () {
 			"players": [
 				{
 					"name": "Jess",
-					"image": "https://www.goldderby.com/wp-content/uploads/2024/02/Survivor-46-Jessica-Jess-Chong.jpg",
+					"image": "./assets/Survivor-46-Jessica-Jess-Chong.jpg",
 					"eliminated": false
 				},
 				{
 					"name": "Charlie",
-					"image": "https://www.goldderby.com/wp-content/uploads/2024/02/Survivor-46-Charlie-Davis.jpg",
+					"image": "./assets/Survivor-46-Charlie-Davis.jpg",
 					"eliminated": false
 				},
 				{
 					"name": "Hunter",
-					"image": "https://www.goldderby.com/wp-content/uploads/2024/02/Survivor-46-Hunter-McKnight.jpg",
+					"image": "./assets/Survivor-46-Hunter-McKnight.jpg",
 					"eliminated": false
 				},
 				{
 					"name": "Ben",
-					"image": "https://www.goldderby.com/wp-content/uploads/2024/02/Survivor-46-Ben-Katzman.jpg",
+					"image": "./assets/Survivor-46-Ben-Katzman.jpg",
+					"eliminated": false
+				},
+			]
+		},
+		"starks": {
+			"score": 0,
+			"players": [
+				{
+					"name": "Tiffany",
+					"image": "./assets/Survivor-46-Tiffany-Nicole-Ervin.jpg",
+					"eliminated": false
+				},
+				{
+					"name": "Venus",
+					"image": "./assets/Survivor-46-Venus-Vafa.jpg",
+					"eliminated": false
+				},
+				{
+					"name": "?",
+					"image": "",
+					"eliminated": false
+				},
+				{
+					"name": "?",
+					"image": "",
+					"eliminated": false
+				},
+			]
+		},
+		"hamiltons": {
+			"score": 0,
+			"players": [
+				{
+					"name": "Q",
+					"image": "./assets/Survivor-46-Q-Burdette.jpg",
+					"eliminated": false
+				},
+				{
+					"name": "Tim",
+					"image": "./assets/Survivor-46-Tim-Spicer.jpg",
+					"eliminated": false
+				},
+				{
+					"name": "Jem",
+					"image": "./assets/Survivor-46-Jemila-Jem-Hussain-Adams.jpg",
+					"eliminated": false
+				},
+				{
+					"name": "?",
+					"image": "",
 					"eliminated": false
 				},
 			]

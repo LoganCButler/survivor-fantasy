@@ -2,20 +2,53 @@ body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
+	background-image: url('./assets/Survivor-46-Jeff-Probst.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat; /* Prevent background from repeating */
+	background-attachment: fixed;
+	color: #fff;
+	position: relative;
+	min-height: 100vh;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color:#27270D;
+	border-top: 2px solid #ccc;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+footer p {
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	color: #DEAE4A;
+	text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
 }
 
 .team-container {
 	display: flex;
 	justify-content: space-around;
 	margin: 20px;
+	padding-bottom: 50px;
 }
 
 .team {
 	text-align: center;
-	border: 2px solid #ccc; /* Add a border around each team */
+	border: 2px solid #DEAE4A; /* #ccc; /* Add a border around each team */
 	padding: 10px; /* Add some padding for spacing */
 	border-radius: 10px; /* Optional: Add rounded corners for aesthetics */
 	margin: 10px; /* Add some space between teams */
+
+	 /* Apply a blurred background */
+	 backdrop-filter: blur(10px);
+	 background-color: #534F3F90; /* Adjust the alpha value for transparency */
 }
 
 .team-score {
@@ -59,7 +92,6 @@ body {
 	}
 
 	.player {
-			display: block;
 			text-align: center;
 			margin: 10px auto;
 	}
@@ -73,6 +105,6 @@ body {
 	}
 
 	.eliminated {
-			font-size: 18px;
+			font-size: 120px;
 	}
 }
