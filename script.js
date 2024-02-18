@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				{
 					"name": "Soda",
 					"image": "./assets/Survivor-46-Soda-Thompson.jpg",
-					"eliminated": true
+					"eliminated": false
 				},
 				{
 					"name": "Kenzie",
