@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-	// Sample JSON data
 	const teamData = {
 		"butlers": {
 			"score": 100,
@@ -65,13 +64,13 @@ document.addEventListener("DOMContentLoaded", function () {
 					"eliminated": false
 				},
 				{
-					"name": "?",
-					"image": "",
+					"name": "Ben",
+					"image": "./assets/Survivor-46-Ben-Katzman.jpg",
 					"eliminated": false
 				},
 				{
-					"name": "?",
-					"image": "",
+					"name": "Liz",
+					"image": "./assets/Survivor-46-Liz-Wilcox.jpg",
 					"eliminated": false
 				},
 			]
@@ -95,8 +94,8 @@ document.addEventListener("DOMContentLoaded", function () {
 					"eliminated": false
 				},
 				{
-					"name": "?",
-					"image": "",
+					"name": "Moriah",
+					"image": "./assets/Survivor-46-Moriah-Gaynor.jpg",
 					"eliminated": false
 				},
 			]
