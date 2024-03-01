@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					"name": "Tiffany",
 					"image": "./assets/Survivor-46-Tiffany-Nicole-Ervin.jpg",
 					"eliminated": false,
-					"hasIdol": false,
+					"hasIdol": true,
 					"hasAdvantage": false
 				},
 				{
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				{
 					"name": "David",
 					"image": "./assets//Survivor-46-David-Jelinsky.jpg",
-					"eliminated": false,
+					"eliminated": true,
 					"hasIdol": false,
 					"hasAdvantage": false
 				},
