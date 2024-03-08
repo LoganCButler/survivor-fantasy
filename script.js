@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					"image": "./assets/Survivor-46-Tevin-Davis.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": true
 				},
 			]
 		},
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				{
 					"name": "Jess",
 					"image": "./assets/Survivor-46-Jessica-Jess-Chong.jpg",
-					"eliminated": false,
+					"eliminated": true,
 					"hasIdol": false,
 					"hasAdvantage": false
 				},
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					"image": "./assets/Survivor-46-Moriah-Gaynor.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": true
 				},
 			]
 		},
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					"hasAdvantage": false
 				},
 				{
-					"name": "David",
+					"name": "Jelinsky",
 					"image": "./assets//Survivor-46-David-Jelinsky.jpg",
 					"eliminated": true,
 					"hasIdol": false,
