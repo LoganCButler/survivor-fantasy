@@ -1,134 +1,150 @@
 document.addEventListener("DOMContentLoaded", function () {
 	const teamData = {
 		"butlers": {
-			"score": 100,
+			"score": 575,
 			"players": [
 				{
 					"name": "Soda",
 					"image": "./assets/Survivor-46-Soda-Thompson.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "nami"
 				},
 				{
 					"name": "Kenzie",
 					"image": "./assets/Survivor-46-Kenzie-Petty.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "yanu"
 				},
 				{
 					"name": "Randen",
 					"image": "./assets/Survivor-46-Randen-Montalvo.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "nami"
 				},
 				{
 					"name": "Tevin",
 					"image": "./assets/Survivor-46-Tevin-Davis.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": true
+					"hasAdvantage": true,
+					"ogTribe": "nami"
 				},
 			]
 		},
 		"Elams": {
-			"score": 0,
+			"score": 75,
 			"players": [
 				{
 					"name": "Jess",
 					"image": "./assets/Survivor-46-Jessica-Jess-Chong.jpg",
 					"eliminated": true,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "yanu"
 				},
 				{
 					"name": "Charlie",
 					"image": "./assets/Survivor-46-Charlie-Davis.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "siga"
 				},
 				{
 					"name": "Hunter",
 					"image": "./assets/Survivor-46-Hunter-McKnight.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "nami"
 				},
 				{
 					"name": "Moriah",
 					"image": "./assets/Survivor-46-Moriah-Gaynor.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": true
+					"hasAdvantage": true,
+					"ogTribe": "siga"
 				},
 			]
 		},
 		"starks": {
-			"score": 0,
+			"score": 450,
 			"players": [
 				{
 					"name": "Tiffany",
 					"image": "./assets/Survivor-46-Tiffany-Nicole-Ervin.jpg",
 					"eliminated": false,
 					"hasIdol": true,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "yanu"
 				},
 				{
 					"name": "Venus",
 					"image": "./assets/Survivor-46-Venus-Vafa.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "nami"
 				},
 				{
 					"name": "Ben",
 					"image": "./assets/Survivor-46-Ben-Katzman.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "siga"
 				},
 				{
 					"name": "Liz",
 					"image": "./assets/Survivor-46-Liz-Wilcox.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "nami"
 				},
 			]
 		},
 		"hamiltons": {
-			"score": 0,
+			"score": 25,
 			"players": [
 				{
 					"name": "Q",
 					"image": "./assets/Survivor-46-Q-Burdette.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "yanu"
 				},
 				{
 					"name": "Tim",
 					"image": "./assets/Survivor-46-Tim-Spicer.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "siga"
 				},
 				{
 					"name": "Jem",
 					"image": "./assets/Survivor-46-Jemila-Jem-Hussain-Adams.jpg",
 					"eliminated": false,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "siga"
 				},
 				{
 					"name": "Jelinsky",
 					"image": "./assets//Survivor-46-David-Jelinsky.jpg",
 					"eliminated": true,
 					"hasIdol": false,
-					"hasAdvantage": false
+					"hasAdvantage": false,
+					"ogTribe": "yanu"
 				},
 			]
 		},
@@ -138,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	function createPlayerHTML(player) {
 		return `
 				<div class="player">
-					<img src="${player.image}" alt="${player.name}">
+					<img class="${player.ogTribe}" src="${player.image}" alt="${player.name}">
 					<span>
 						${player.name} 
 						${player.hasIdol ? '<div class="material-symbols-outlined">verified_user</div>' : ''}

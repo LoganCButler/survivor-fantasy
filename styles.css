@@ -36,7 +36,8 @@ h1 {
 	display: flex;
 	justify-content: space-around;
 	margin: 20px;
-	padding-bottom: 50px;
+	margin-bottom: 0px;
+	padding-bottom: 100px;
 }
 
 .team {
@@ -71,6 +72,18 @@ h1 {
 	object-fit: cover;
 }
 
+.nami {
+	border: 5px solid #ffab30;
+}
+
+.yanu {
+	border: 5px solid #c265c5;
+}
+
+.siga {
+	border: 5px solid #93de7e;
+}
+
 .player span {
 	display: block;
 	margin-top: 5px; /* Add some spacing between the image and the name */
@@ -83,6 +96,7 @@ h1 {
 	transform: translate(-50%, -50%);
 	color: red;
 	font-size: 160px;
+	padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {
