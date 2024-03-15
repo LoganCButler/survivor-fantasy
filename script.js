@@ -25,7 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
 					"eliminated": false,
 					"hasIdol": false,
 					"hasAdvantage": false,
-					"ogTribe": "nami"
+					"ogTribe": "nami",
+					"medicalEvac": true
 				},
 				{
 					"name": "Tevin",
@@ -161,6 +162,7 @@ document.addEventListener("DOMContentLoaded", function () {
 						${player.hasAdvantage ? '<div class="material-symbols-outlined">upgrade</div>' : ''}
 						</span>
 					${player.eliminated ? '<span class="eliminated">X</span>' : ''}
+					${player.medicalEvac ? '<span class="material-symbols-outlined medicalEvac" >local_hospital</span>' : ''}
 				</div>	
 			`;
 	}
