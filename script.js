@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 	const teamData = {
 		"butlers": {
-			"score": 575,
+			"score": 675,
 			"players": [
 				{
 					"name": "Soda",
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			]
 		},
 		"Elams": {
-			"score": 75,
+			"score": 175,
 			"players": [
 				{
 					"name": "Jess",
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			]
 		},
 		"starks": {
-			"score": 450,
+			"score": 525,
 			"players": [
 				{
 					"name": "Tiffany",
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			]
 		},
 		"hamiltons": {
-			"score": 25,
+			"score": 100,
 			"players": [
 				{
 					"name": "Q",
