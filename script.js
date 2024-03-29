@@ -1,155 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-	const teamData = {
-		"butlers": {
-			"score": 675,
-			"players": [
-				{
-					"name": "Soda",
-					"image": "./assets/Survivor-46-Soda-Thompson.jpg",
-					"eliminated": false,
-					"hasIdol": false,
-					"hasAdvantage": false,
-					"ogTribe": "nami"
-				},
-				{
-					"name": "Kenzie",
-					"image": "./assets/Survivor-46-Kenzie-Petty.jpg",
-					"eliminated": false,
-					"hasIdol": false,
-					"hasAdvantage": false,
-					"ogTribe": "yanu"
-				},
-				{
-					"name": "Randen",
-					"image": "./assets/Survivor-46-Randen-Montalvo.jpg",
-					"eliminated": false,
-					"hasIdol": false,
-					"hasAdvantage": false,
-					"ogTribe": "nami",
-					"medicalEvac": true
-				},
-				{
-					"name": "Tevin",
-					"image": "./assets/Survivor-46-Tevin-Davis.jpg",
-					"eliminated": false,
-					"hasIdol": false,
-					"hasAdvantage": true,
-					"ogTribe": "nami"
-				},
-			]
-		},
-		"Elams": {
-			"score": 175,
-			"players": [
-				{
-					"name": "Jess",
-					"image": "./assets/Survivor-46-Jessica-Jess-Chong.jpg",
-					"eliminated": true,
-					"hasIdol": false,
-					"hasAdvantage": false,
-					"ogTribe": "yanu"
-				},
-				{
-					"name": "Charlie",
-					"image": "./assets/Survivor-46-Charlie-Davis.jpg",
-					"eliminated": false,
-					"hasIdol": false,
-					"hasAdvantage": false,
-					"ogTribe": "siga"
-				},
-				{
-					"name": "Hunter",
-					"image": "./assets/Survivor-46-Hunter-McKnight.jpg",
-					"eliminated": false,
-					"hasIdol": false,
-					"hasAdvantage": false,
-					"ogTribe": "nami"
-				},
-				{
-					"name": "Moriah",
-					"image": "./assets/Survivor-46-Moriah-Gaynor.jpg",
-					"eliminated": false,
-					"hasIdol": false,
-					"hasAdvantage": true,
-					"ogTribe": "siga"
-				},
-			]
-		},
-		"starks": {
-			"score": 525,
-			"players": [
-				{
-					"name": "Tiffany",
-					"image": "./assets/Survivor-46-Tiffany-Nicole-Ervin.jpg",
-					"eliminated": false,
-					"hasIdol": true,
-					"hasAdvantage": false,
-					"ogTribe": "yanu"
-				},
-				{
-					"name": "Venus",
-					"image": "./assets/Survivor-46-Venus-Vafa.jpg",
-					"eliminated": false,
-					"hasIdol": false,
-					"hasAdvantage": false,
-					"ogTribe": "nami"
-				},
-				{
-					"name": "Ben",
-					"image": "./assets/Survivor-46-Ben-Katzman.jpg",
-					"eliminated": false,
-					"hasIdol": false,
-					"hasAdvantage": false,
-					"ogTribe": "siga"
-				},
-				{
-					"name": "Liz",
-					"image": "./assets/Survivor-46-Liz-Wilcox.jpg",
-					"eliminated": false,
-					"hasIdol": false,
-					"hasAdvantage": false,
-					"ogTribe": "nami"
-				},
-			]
-		},
-		"hamiltons": {
-			"score": 100,
-			"players": [
-				{
-					"name": "Q",
-					"image": "./assets/Survivor-46-Q-Burdette.jpg",
-					"eliminated": false,
-					"hasIdol": false,
-					"hasAdvantage": false,
-					"ogTribe": "yanu"
-				},
-				{
-					"name": "Tim",
-					"image": "./assets/Survivor-46-Tim-Spicer.jpg",
-					"eliminated": false,
-					"hasIdol": false,
-					"hasAdvantage": false,
-					"ogTribe": "siga"
-				},
-				{
-					"name": "Jem",
-					"image": "./assets/Survivor-46-Jemila-Jem-Hussain-Adams.jpg",
-					"eliminated": false,
-					"hasIdol": false,
-					"hasAdvantage": false,
-					"ogTribe": "siga"
-				},
-				{
-					"name": "Jelinsky",
-					"image": "./assets//Survivor-46-David-Jelinsky.jpg",
-					"eliminated": true,
-					"hasIdol": false,
-					"hasAdvantage": false,
-					"ogTribe": "yanu"
-				},
-			]
-		},
-	};
+	fetch('team-data.json')
+		.then(response => response.json())
+		.then(teamData => {
+				// Update teams with JSON data
+				Object.keys(teamData).forEach(teamId => {
+						updateTeam(teamId, teamData[teamId]);
+				});
+	})
+	.catch(error => console.error('Error fetching team data:', error));
 
 	// Function to create player HTML based on JSON data
 	function createPlayerHTML(player) {
@@ -158,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
 					<img class="${player.ogTribe}" src="${player.image}" alt="${player.name}">
 					<span>
 						${player.name} 
-						${player.hasIdol ? '<div class="material-symbols-outlined">verified_user</div>' : ''}
-						${player.hasAdvantage ? '<div class="material-symbols-outlined">upgrade</div>' : ''}
+						${player.hasIdol ? '<div class="material-symbols-outlined advantage-icon">verified_user</div>' : ''}
+						${player.hasAdvantage ? '<div class="material-symbols-outlined advantage-icon">upgrade</div>' : ''}
 						</span>
 					${player.eliminated ? '<span class="eliminated">X</span>' : ''}
 					${player.medicalEvac ? '<span class="material-symbols-outlined medicalEvac" >local_hospital</span>' : ''}
@@ -184,9 +42,4 @@ document.addEventListener("DOMContentLoaded", function () {
 			playerContainer.innerHTML += playerHTML;
 		});
 	}
-
-	// Update teams with JSON data
-	Object.keys(teamData).forEach(teamId => {
-		updateTeam(teamId, teamData[teamId]);
-	});
 });
