@@ -1,6 +1,6 @@
 {
 	"butlers": {
-		"score": 1000,
+		"score": 1100,
 		"players": [
 			{
 				"name": "Soda",
@@ -38,7 +38,7 @@
 		]
 	},
 	"Elams": {
-		"score": 275,
+		"score": 375,
 		"players": [
 			{
 				"name": "Jess",
@@ -67,7 +67,7 @@
 			{
 				"name": "Moriah",
 				"image": "./assets/Survivor-46-Moriah-Gaynor.jpg",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": true,
 				"ogTribe": "siga"
@@ -75,7 +75,7 @@
 		]
 	},
 	"starks": {
-		"score": 825,
+		"score": 975,
 		"players": [
 			{
 				"name": "Tiffany",
@@ -112,7 +112,7 @@
 		]
 	},
 	"hamiltons": {
-		"score": 125,
+		"score": 250,
 		"players": [
 			{
 				"name": "Q",
