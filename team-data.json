@@ -60,7 +60,7 @@
 				"name": "Hunter",
 				"image": "./assets/Survivor-46-Hunter-McKnight.jpg",
 				"eliminated": false,
-				"hasIdol": false,
+				"hasIdol": true,
 				"hasAdvantage": false,
 				"ogTribe": "nami"
 			},
