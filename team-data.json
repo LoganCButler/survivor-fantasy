@@ -1,11 +1,11 @@
 {
 	"butlers": {
-		"score": 1100,
+		"score": 1200,
 		"players": [
 			{
 				"name": "Soda",
 				"image": "./assets/Survivor-46-Soda-Thompson.jpg",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "nami"
@@ -38,7 +38,7 @@
 		]
 	},
 	"Elams": {
-		"score": 375,
+		"score": 475,
 		"players": [
 			{
 				"name": "Jess",
@@ -75,7 +75,7 @@
 		]
 	},
 	"starks": {
-		"score": 975,
+		"score": 1125,
 		"players": [
 			{
 				"name": "Tiffany",
@@ -112,7 +112,7 @@
 		]
 	},
 	"hamiltons": {
-		"score": 250,
+		"score": 275,
 		"players": [
 			{
 				"name": "Q",
@@ -125,7 +125,7 @@
 			{
 				"name": "Tim",
 				"image": "./assets/Survivor-46-Tim-Spicer.jpg",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "siga"
