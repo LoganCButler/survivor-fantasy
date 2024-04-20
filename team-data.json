@@ -30,7 +30,7 @@
 			{
 				"name": "Tevin",
 				"image": "./assets/Survivor-46-Tevin-Davis.jpg",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": true,
 				"ogTribe": "nami"
