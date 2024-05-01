@@ -1,6 +1,6 @@
 {
 	"butlers": {
-		"score": 1200,
+		"score": 1100,
 		"players": [
 			{
 				"name": "Soda",
@@ -75,7 +75,7 @@
 		]
 	},
 	"starks": {
-		"score": 1125,
+		"score": 1150,
 		"players": [
 			{
 				"name": "Tiffany",
@@ -112,7 +112,7 @@
 		]
 	},
 	"hamiltons": {
-		"score": 275,
+		"score": 400,
 		"players": [
 			{
 				"name": "Q",
