@@ -38,7 +38,7 @@
 		]
 	},
 	"Elams": {
-		"score": 475,
+		"score": 575,
 		"players": [
 			{
 				"name": "Jess",
@@ -75,12 +75,12 @@
 		]
 	},
 	"starks": {
-		"score": 1150,
+		"score": 950,
 		"players": [
 			{
 				"name": "Tiffany",
 				"image": "./assets/Survivor-46-Tiffany-Nicole-Ervin.jpg",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": true,
 				"hasAdvantage": false,
 				"ogTribe": "yanu"
@@ -88,8 +88,8 @@
 			{
 				"name": "Venus",
 				"image": "./assets/Survivor-46-Venus-Vafa.jpg",
-				"eliminated": false,
-				"hasIdol": false,
+				"eliminated": true,
+				"hasIdol": true,
 				"hasAdvantage": false,
 				"ogTribe": "nami"
 			},
@@ -112,7 +112,7 @@
 		]
 	},
 	"hamiltons": {
-		"score": 400,
+		"score": 450,
 		"players": [
 			{
 				"name": "Q",
