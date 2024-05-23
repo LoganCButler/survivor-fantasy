@@ -117,8 +117,8 @@
 			{
 				"name": "Q",
 				"image": "./assets/Survivor-46-Q-Burdette.jpg",
-				"eliminated": false,
-				"hasIdol": false,
+				"eliminated": true,
+				"hasIdol": true,
 				"hasAdvantage": false,
 				"ogTribe": "yanu"
 			},
