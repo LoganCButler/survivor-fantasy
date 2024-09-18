@@ -1,150 +1,150 @@
 {
 	"butlers": {
-		"score": 1100,
+		"score": 0,
 		"players": [
 			{
-				"name": "Soda",
-				"image": "./assets/Survivor-46-Soda-Thompson.jpg",
-				"eliminated": true,
-				"hasIdol": false,
-				"hasAdvantage": false,
-				"ogTribe": "nami"
-			},
-			{
-				"name": "Kenzie",
-				"image": "./assets/Survivor-46-Kenzie-Petty.jpg",
+				"name": "TK",
+				"image": "https://static.wikia.nocookie.net/survivor/images/9/9a/S47_tk_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "yanu"
+				"ogTribe": "tuku"
 			},
 			{
-				"name": "Randen",
-				"image": "./assets/Survivor-46-Randen-Montalvo.jpg",
+				"name": "Tiyana",
+				"image": "https://static.wikia.nocookie.net/survivor/images/5/5d/S47_tiyana_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "nami",
-				"medicalEvac": true
+				"ogTribe": "tuku"
 			},
 			{
-				"name": "Tevin",
-				"image": "./assets/Survivor-46-Tevin-Davis.jpg",
-				"eliminated": true,
+				"name": "Rachel",
+				"image": "https://static.wikia.nocookie.net/survivor/images/e/ee/S47_rachel_t.png",
+				"eliminated": false,
 				"hasIdol": false,
-				"hasAdvantage": true,
-				"ogTribe": "nami"
+				"hasAdvantage": false,
+				"ogTribe": "gata",
+				"medicalEvac": false
+			},
+			{
+				"name": "Sierra",
+				"image": "https://static.wikia.nocookie.net/survivor/images/3/30/S47_sierra_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "gata"
 			}
 		]
 	},
 	"Elams": {
-		"score": 575,
+		"score": 0,
 		"players": [
 			{
-				"name": "Jess",
-				"image": "./assets/Survivor-46-Jessica-Jess-Chong.jpg",
-				"eliminated": true,
-				"hasIdol": false,
-				"hasAdvantage": false,
-				"ogTribe": "yanu"
-			},
-			{
-				"name": "Charlie",
-				"image": "./assets/Survivor-46-Charlie-Davis.jpg",
+				"name": "Caroline",
+				"image": "https://static.wikia.nocookie.net/survivor/images/1/11/S47_caroline_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "siga"
+				"ogTribe": "tuku"
 			},
 			{
-				"name": "Hunter",
-				"image": "./assets/Survivor-46-Hunter-McKnight.jpg",
-				"eliminated": true,
-				"hasIdol": true,
-				"hasAdvantage": false,
-				"ogTribe": "nami"
-			},
-			{
-				"name": "Moriah",
-				"image": "./assets/Survivor-46-Moriah-Gaynor.jpg",
-				"eliminated": true,
+				"name": "Anika",
+				"image": "https://static.wikia.nocookie.net/survivor/images/a/a9/S47_anika_t.png",
+				"eliminated": false,
 				"hasIdol": false,
-				"hasAdvantage": true,
-				"ogTribe": "siga"
+				"hasAdvantage": false,
+				"ogTribe": "gata"
+			},
+			{
+				"name": "Jon",
+				"image": "https://static.wikia.nocookie.net/survivor/images/6/60/S47_jon_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "gata"
+			},
+			{
+				"name": "Sol",
+				"image": "https://static.wikia.nocookie.net/survivor/images/c/c8/S47_sol_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "lavo"
 			}
 		]
 	},
 	"starks": {
-		"score": 950,
+		"score": 0,
 		"players": [
 			{
-				"name": "Tiffany",
-				"image": "./assets/Survivor-46-Tiffany-Nicole-Ervin.jpg",
-				"eliminated": true,
-				"hasIdol": true,
-				"hasAdvantage": false,
-				"ogTribe": "yanu"
-			},
-			{
-				"name": "Venus",
-				"image": "./assets/Survivor-46-Venus-Vafa.jpg",
-				"eliminated": true,
-				"hasIdol": true,
-				"hasAdvantage": false,
-				"ogTribe": "nami"
-			},
-			{
-				"name": "Ben",
-				"image": "./assets/Survivor-46-Ben-Katzman.jpg",
+				"name": "Gabe",
+				"image": "https://static.wikia.nocookie.net/survivor/images/0/01/S47_gabe_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "siga"
+				"ogTribe": "tuku"
 			},
 			{
-				"name": "Liz",
-				"image": "./assets/Survivor-46-Liz-Wilcox.jpg",
+				"name": "Sam",
+				"image": "https://static.wikia.nocookie.net/survivor/images/d/dc/S47_sam_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "nami"
+				"ogTribe": "gata"
+			},
+			{
+				"name": "Rome",
+				"image": "https://static.wikia.nocookie.net/survivor/images/5/58/S47_rome_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "lavo"
+			},
+			{
+				"name": "Genevieve",
+				"image": "https://static.wikia.nocookie.net/survivor/images/2/2a/S47_genevieve_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "lavo"
 			}
 		]
 	},
 	"hamiltons": {
-		"score": 450,
+		"score": 0,
 		"players": [
 			{
-				"name": "Q",
-				"image": "./assets/Survivor-46-Q-Burdette.jpg",
-				"eliminated": true,
-				"hasIdol": true,
-				"hasAdvantage": false,
-				"ogTribe": "yanu"
-			},
-			{
-				"name": "Tim",
-				"image": "./assets/Survivor-46-Tim-Spicer.jpg",
-				"eliminated": true,
+				"name": "Kyle",
+				"image": "https://static.wikia.nocookie.net/survivor/images/9/99/S47_kyle_t.png",
+				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "siga"
+				"ogTribe": "tuku"
 			},
 			{
-				"name": "Jem",
-				"image": "./assets/Survivor-46-Jemila-Jem-Hussain-Adams.jpg",
-				"eliminated": true,
-				"hasIdol": true,
-				"hasAdvantage": false,
-				"ogTribe": "siga"
-			},
-			{
-				"name": "Jelinsky",
-				"image": "./assets//Survivor-46-David-Jelinsky.jpg",
-				"eliminated": true,
+				"name": "Sue",
+				"image": "https://static.wikia.nocookie.net/survivor/images/c/cf/S47_sue_t.png",
+				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "yanu"
+				"ogTribe": "tuku"
+			},
+			{
+				"name": "Andy",
+				"image": "https://static.wikia.nocookie.net/survivor/images/c/c4/S47_andy_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "gata"
+			},
+			{
+				"name": "Aysha",
+				"image": "https://static.wikia.nocookie.net/survivor/images/e/eb/S47_aysha_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "lavo"
 			}
 		]
 	}
