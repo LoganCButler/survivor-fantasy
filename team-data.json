@@ -5,7 +5,7 @@
 			{
 				"name": "TK",
 				"image": "https://static.wikia.nocookie.net/survivor/images/9/9a/S47_tk_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tuku"
@@ -38,7 +38,7 @@
 		]
 	},
 	"Elams": {
-		"score": 25,
+		"score": 100,
 		"players": [
 			{
 				"name": "Caroline",
@@ -75,7 +75,7 @@
 		]
 	},
 	"starks": {
-		"score": 225,
+		"score": 525,
 		"players": [
 			{
 				"name": "Gabe",
@@ -89,7 +89,7 @@
 				"name": "Sam",
 				"image": "https://static.wikia.nocookie.net/survivor/images/d/dc/S47_sam_t.png",
 				"eliminated": false,
-				"hasIdol": false,
+				"hasIdol": true,
 				"hasAdvantage": false,
 				"ogTribe": "gata"
 			},
@@ -97,7 +97,7 @@
 				"name": "Rome",
 				"image": "https://static.wikia.nocookie.net/survivor/images/5/58/S47_rome_t.png",
 				"eliminated": false,
-				"hasIdol": false,
+				"hasIdol": true,
 				"hasAdvantage": false,
 				"ogTribe": "lavo"
 			},
@@ -112,7 +112,7 @@
 		]
 	},
 	"hamiltons": {
-		"score": 125,
+		"score": 225,
 		"players": [
 			{
 				"name": "Kyle",
