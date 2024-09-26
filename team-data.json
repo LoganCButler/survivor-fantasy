@@ -1,6 +1,6 @@
 {
 	"butlers": {
-		"score": 0,
+		"score": 50,
 		"players": [
 			{
 				"name": "TK",
@@ -38,7 +38,7 @@
 		]
 	},
 	"Elams": {
-		"score": 0,
+		"score": 25,
 		"players": [
 			{
 				"name": "Caroline",
@@ -59,7 +59,7 @@
 			{
 				"name": "Jon",
 				"image": "https://static.wikia.nocookie.net/survivor/images/6/60/S47_jon_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "gata"
@@ -75,7 +75,7 @@
 		]
 	},
 	"starks": {
-		"score": 0,
+		"score": 225,
 		"players": [
 			{
 				"name": "Gabe",
@@ -112,7 +112,7 @@
 		]
 	},
 	"hamiltons": {
-		"score": 0,
+		"score": 125,
 		"players": [
 			{
 				"name": "Kyle",
