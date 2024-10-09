@@ -97,8 +97,8 @@
 				"name": "Rome",
 				"image": "https://static.wikia.nocookie.net/survivor/images/5/58/S47_rome_t.png",
 				"eliminated": false,
-				"hasIdol": true,
-				"hasAdvantage": false,
+				"hasIdol": false,
+				"hasAdvantage": true,
 				"ogTribe": "lavo"
 			},
 			{
@@ -141,7 +141,7 @@
 			{
 				"name": "Aysha",
 				"image": "https://static.wikia.nocookie.net/survivor/images/e/eb/S47_aysha_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "lavo"
