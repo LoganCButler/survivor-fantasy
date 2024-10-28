@@ -89,16 +89,16 @@
 				"name": "Sam",
 				"image": "https://static.wikia.nocookie.net/survivor/images/d/dc/S47_sam_t.png",
 				"eliminated": false,
-				"hasIdol": true,
+				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "gata"
 			},
 			{
 				"name": "Rome",
 				"image": "https://static.wikia.nocookie.net/survivor/images/5/58/S47_rome_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
-				"hasAdvantage": true,
+				"hasAdvantage": false,
 				"ogTribe": "lavo"
 			},
 			{
@@ -126,7 +126,7 @@
 				"name": "Sue",
 				"image": "https://static.wikia.nocookie.net/survivor/images/c/cf/S47_sue_t.png",
 				"eliminated": false,
-				"hasIdol": false,
+				"hasIdol": true,
 				"hasAdvantage": false,
 				"ogTribe": "tuku"
 			},
