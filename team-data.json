@@ -30,7 +30,7 @@
 			{
 				"name": "Sierra",
 				"image": "https://static.wikia.nocookie.net/survivor/images/3/30/S47_sierra_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "gata"
