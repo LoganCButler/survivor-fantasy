@@ -13,7 +13,7 @@
 			{
 				"name": "Tiyana",
 				"image": "https://static.wikia.nocookie.net/survivor/images/5/5d/S47_tiyana_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tuku"
