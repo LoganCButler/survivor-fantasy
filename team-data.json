@@ -51,7 +51,7 @@
 			{
 				"name": "Anika",
 				"image": "https://static.wikia.nocookie.net/survivor/images/a/a9/S47_anika_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "gata"
