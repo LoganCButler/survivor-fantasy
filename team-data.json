@@ -1,6 +1,6 @@
 {
 	"butlers": {
-		"score": 325,
+		"score": 500,
 		"players": [
 			{
 				"name": "TK",
@@ -38,7 +38,7 @@
 		]
 	},
 	"Elams": {
-		"score": 300,
+		"score": 450,
 		"players": [
 			{
 				"name": "Caroline",
@@ -67,7 +67,7 @@
 			{
 				"name": "Sol",
 				"image": "https://static.wikia.nocookie.net/survivor/images/c/c8/S47_sol_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "lavo"
@@ -75,12 +75,12 @@
 		]
 	},
 	"starks": {
-		"score": 775,
+		"score": 1325,
 		"players": [
 			{
 				"name": "Gabe",
 				"image": "https://static.wikia.nocookie.net/survivor/images/0/01/S47_gabe_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tuku"
@@ -112,7 +112,7 @@
 		]
 	},
 	"hamiltons": {
-		"score": 475,
+		"score": 1575,
 		"players": [
 			{
 				"name": "Kyle",
