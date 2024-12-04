@@ -117,7 +117,7 @@
 			{
 				"name": "Kyle",
 				"image": "https://static.wikia.nocookie.net/survivor/images/9/99/S47_kyle_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tuku"
