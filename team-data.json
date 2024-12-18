@@ -1,6 +1,6 @@
 {
 	"butlers": {
-		"score": 500,
+		"score": 750,
 		"players": [
 			{
 				"name": "TK",
@@ -38,12 +38,12 @@
 		]
 	},
 	"Elams": {
-		"score": 450,
+		"score": 350,
 		"players": [
 			{
 				"name": "Caroline",
 				"image": "https://static.wikia.nocookie.net/survivor/images/1/11/S47_caroline_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tuku"
@@ -75,7 +75,7 @@
 		]
 	},
 	"starks": {
-		"score": 1325,
+		"score": 1525,
 		"players": [
 			{
 				"name": "Gabe",
@@ -104,7 +104,7 @@
 			{
 				"name": "Genevieve",
 				"image": "https://static.wikia.nocookie.net/survivor/images/2/2a/S47_genevieve_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "lavo"
@@ -112,7 +112,7 @@
 		]
 	},
 	"hamiltons": {
-		"score": 1575,
+		"score": 1550,
 		"players": [
 			{
 				"name": "Kyle",
@@ -126,7 +126,7 @@
 				"name": "Sue",
 				"image": "https://static.wikia.nocookie.net/survivor/images/c/cf/S47_sue_t.png",
 				"eliminated": false,
-				"hasIdol": true,
+				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tuku"
 			},
