@@ -2,7 +2,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
-	background-image: url('./assets/Survivor-46-Jeff-Probst.jpg');
+	/* background-image: url('./assets/Survivor-46-Jeff-Probst.jpg'); */
+	background-image: url('./assets/justin-jesus.jpeg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat; /* Prevent background from repeating */
@@ -72,16 +73,16 @@ h1 {
 	object-fit: cover;
 }
 
-.tuku {
-	border: 5px solid #049ed9;
+.tribe-orange {
+	border: 5px solid #d99905;
 }
 
-.gata {
-	border: 5px solid #fcdd31;
+.tribe-purple {
+	border: 5px solid #ad5ed2;
 }
 
-.lavo {
-	border: 5px solid #ff4148;
+.tribe-green {
+	border: 5px solid #6dcca0;
 }
 
 .player span {
