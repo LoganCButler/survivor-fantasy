@@ -44,14 +44,14 @@
 				"name": "Kyle",
 				"image": "https://static.wikia.nocookie.net/survivor/images/c/cc/S48_kyle_t.png",
 				"eliminated": false,
-				"hasIdol": true,
+				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tribe-orange"
 			},
 			{
 				"name": "Thomas",
 				"image": "https://static.wikia.nocookie.net/survivor/images/f/ff/S48_thomas_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tribe-purple"
