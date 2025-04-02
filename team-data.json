@@ -67,7 +67,7 @@
 			{
 				"name": "Justin",
 				"image": "https://static.wikia.nocookie.net/survivor/images/8/81/S48_justin_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tribe-green"
@@ -133,7 +133,7 @@
 			{
 				"name": "Bianca",
 				"image": "https://static.wikia.nocookie.net/survivor/images/1/10/S48_bianca_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tribe-purple"
