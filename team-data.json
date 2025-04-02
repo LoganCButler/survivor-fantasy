@@ -1,6 +1,6 @@
 {
 	"butlers": {
-		"score": 0,
+		"score": 700,
 		"players": [
 			{
 				"name": "Mary",
@@ -38,7 +38,7 @@
 		]
 	},
 	"Elams": {
-		"score": 0,
+		"score": 475,
 		"players": [
 			{
 				"name": "Kyle",
@@ -75,7 +75,7 @@
 		]
 	},
 	"starks": {
-		"score": 0,
+		"score": 525,
 		"players": [
 			{
 				"name": "Shauhin",
@@ -112,7 +112,7 @@
 		]
 	},
 	"hamiltons": {
-		"score": 0,
+		"score": 275,
 		"players": [
 			{
 				"name": "Mitch",
