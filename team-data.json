@@ -23,7 +23,7 @@
 				"image": "https://static.wikia.nocookie.net/survivor/images/c/c8/S48_eva_t.png",
 				"eliminated": false,
 				"hasIdol": false,
-				"hasAdvantage": false,
+				"hasAdvantage": true,
 				"ogTribe": "tribe-purple",
 				"medicalEvac": false
 			},
@@ -119,7 +119,7 @@
 				"image": "https://static.wikia.nocookie.net/survivor/images/d/dd/S48_mitch_t.png",
 				"eliminated": false,
 				"hasIdol": false,
-				"hasAdvantage": false,
+				"hasAdvantage": true,
 				"ogTribe": "tribe-orange"
 			},
 			{
