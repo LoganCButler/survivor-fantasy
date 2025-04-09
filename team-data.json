@@ -13,7 +13,7 @@
 			{
 				"name": "Charity",
 				"image": "https://static.wikia.nocookie.net/survivor/images/4/49/S48_charity_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tribe-orange"
