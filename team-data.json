@@ -1,11 +1,11 @@
 {
 	"butlers": {
-		"score": 700,
+		"score": 925,
 		"players": [
 			{
 				"name": "Mary",
 				"image": "https://static.wikia.nocookie.net/survivor/images/e/e9/S48_mary_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tribe-green"
@@ -30,7 +30,7 @@
 			{
 				"name": "Crissy",
 				"image": "https://static.wikia.nocookie.net/survivor/images/0/0e/S48_chrissy_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tribe-orange"
@@ -38,7 +38,7 @@
 		]
 	},
 	"Elams": {
-		"score": 475,
+		"score": 1075,
 		"players": [
 			{
 				"name": "Kyle",
@@ -75,7 +75,7 @@
 		]
 	},
 	"starks": {
-		"score": 525,
+		"score": 800,
 		"players": [
 			{
 				"name": "Shauhin",
@@ -96,7 +96,7 @@
 			{
 				"name": "Sai",
 				"image": "https://static.wikia.nocookie.net/survivor/images/b/b7/S48_sai_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tribe-green"
@@ -112,7 +112,7 @@
 		]
 	},
 	"hamiltons": {
-		"score": 275,
+		"score": 350,
 		"players": [
 			{
 				"name": "Mitch",
@@ -141,7 +141,7 @@
 			{
 				"name": "David",
 				"image": "https://static.wikia.nocookie.net/survivor/images/6/6e/S48_david_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "tribe-orange"
