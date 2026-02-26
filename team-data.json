@@ -3,73 +3,105 @@
 		"score": 0,
 		"players": [
 			{
-				"name": "Jason",
-				"image": "https://static.wikia.nocookie.net/survivor/images/a/a7/S49_jason_t.png",
+				"name": "Cirie",
+				"image": "https://static.wikia.nocookie.net/survivor/images/f/f7/S50_cirie_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "hina"
+				"ogTribe": "cila"
 			},
 			{
-				"name": "Rizo",
-				"image": "https://static.wikia.nocookie.net/survivor/images/4/43/S49_rizo_t.png",
+				"name": "Ozzy",
+				"image": "https://static.wikia.nocookie.net/survivor/images/7/7b/S50_ozzy_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "uli"
+				"ogTribe": "cila"
 			},
 			{
-				"name": "Matt",
-				"image": "https://static.wikia.nocookie.net/survivor/images/d/d6/S49_matt_t.png",
+				"name": "Genevieve",
+				"image": "https://static.wikia.nocookie.net/survivor/images/5/5a/S50_genevieve_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "hina"
+				"ogTribe": "vatu"
 			},
 			{
-				"name": "Kristina",
-				"image": "https://static.wikia.nocookie.net/survivor/images/4/46/S49_kristina_t.png",
+				"name": "Emily",
+				"image": "https://static.wikia.nocookie.net/survivor/images/3/32/S50_emily_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "hina"
+				"ogTribe": "cila"
+			},
+			{
+				"name": "Coach",
+				"image": "https://static.wikia.nocookie.net/survivor/images/2/22/S50_coach_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "kalo"
+			},
+			{
+				"name": "Kyle",
+				"image": "https://static.wikia.nocookie.net/survivor/images/1/1c/S50_kyle_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "vatu"
 			}
 		]
 	},
-	"Elams": {
+	"elams": {
 		"score": 0,
 		"players": [
 			{
-				"name": "Annie",
-				"image": "https://static.wikia.nocookie.net/survivor/images/a/ae/S49_annie_t.png",
+				"name": "Charlie",
+				"image": "https://static.wikia.nocookie.net/survivor/images/d/d1/S50_charlie_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "kele"
+				"ogTribe": "kalo"
 			},
 			{
-				"name": "Sage",
-				"image": "https://static.wikia.nocookie.net/survivor/images/9/91/S49_sage_t.png",
+				"name": "Angelina",
+				"image": "https://static.wikia.nocookie.net/survivor/images/2/2a/S50_angelina_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "uli"
+				"ogTribe": "vatu"
 			},
 			{
-				"name": "Steven",
-				"image": "https://static.wikia.nocookie.net/survivor/images/d/da/S49_steven_t.png",
+				"name": "Christian",
+				"image": "https://static.wikia.nocookie.net/survivor/images/0/0a/S50_christian_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "hina"
+				"ogTribe": "cila"
 			},
 			{
-				"name": "Sophi",
-				"image": "https://static.wikia.nocookie.net/survivor/images/0/0e/S49_sophi_t.png",
+				"name": "Tiffany",
+				"image": "https://static.wikia.nocookie.net/survivor/images/8/83/S50_tiffany_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "kele"
+				"ogTribe": "kalo"
+			},
+			{
+				"name": "Colby",
+				"image": "https://static.wikia.nocookie.net/survivor/images/f/f8/S50_colby_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "vatu"
+			},
+			{
+				"name": "Savannah",
+				"image": "https://static.wikia.nocookie.net/survivor/images/9/90/S50_savannah_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "cila"
 			}
 		]
 	},
@@ -77,36 +109,52 @@
 		"score": 0,
 		"players": [
 			{
-				"name": "Shannon",
-				"image": "https://static.wikia.nocookie.net/survivor/images/8/82/S49_shannon_t.png",
+				"name": "Joe",
+				"image": "https://static.wikia.nocookie.net/survivor/images/5/59/S50_joe_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "uli"
+				"ogTribe": "cila"
 			},
 			{
-				"name": "Jake",
-				"image": "https://static.wikia.nocookie.net/survivor/images/6/68/S49_jake_t.png",
+				"name": "Aubry",
+				"image": "https://static.wikia.nocookie.net/survivor/images/8/82/S50_aubry_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "kele"
+				"ogTribe": "vatu"
 			},
 			{
-				"name": "MC",
-				"image": "https://static.wikia.nocookie.net/survivor/images/c/c4/S49_mc_t.png",
+				"name": "Jonathan",
+				"image": "https://static.wikia.nocookie.net/survivor/images/e/ea/S50_jonathan_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "hina"
+				"ogTribe": "kalo"
 			},
 			{
-				"name": "Savannah",
-				"image": "https://static.wikia.nocookie.net/survivor/images/f/f7/S49_savannah_t.png",
+				"name": "Stephenie",
+				"image": "https://static.wikia.nocookie.net/survivor/images/f/f7/S50_stephenie_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "uli"
+				"ogTribe": "vatu"
+			},
+			{
+				"name": "Dee",
+				"image": "https://static.wikia.nocookie.net/survivor/images/d/d6/S50_dee_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "kalo"
+			},
+			{
+				"name": "Jenna",
+				"image": "https://static.wikia.nocookie.net/survivor/images/1/1f/S50_jenna_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "cila"
 			}
 		]
 	},
@@ -114,36 +162,52 @@
 		"score": 0,
 		"players": [
 			{
-				"name": "Jawan",
-				"image": "https://static.wikia.nocookie.net/survivor/images/0/0e/S49_jawan_t.png",
+				"name": "Rick",
+				"image": "https://static.wikia.nocookie.net/survivor/images/8/83/S50_rick_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "uli"
+				"ogTribe": "cila"
 			},
 			{
-				"name": "Sophie",
-				"image": "https://static.wikia.nocookie.net/survivor/images/2/2a/S49_sophie_t.png",
+				"name": "Kamilla",
+				"image": "https://static.wikia.nocookie.net/survivor/images/5/52/S50_kamilla_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "hina"
+				"ogTribe": "kalo"
 			},
 			{
-				"name": "Jeremiah",
-				"image": "https://static.wikia.nocookie.net/survivor/images/a/aa/S49_jeremiah_t.png",
+				"name": "Q",
+				"image": "https://static.wikia.nocookie.net/survivor/images/4/44/S50_q_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "kele"
+				"ogTribe": "vatu"
 			},
 			{
-				"name": "Alex",
-				"image": "https://static.wikia.nocookie.net/survivor/images/6/61/S49_alex_t.png",
+				"name": "Chrissy",
+				"image": "https://static.wikia.nocookie.net/survivor/images/4/40/S50_chrissy_t.png",
 				"eliminated": false,
 				"hasIdol": false,
 				"hasAdvantage": false,
-				"ogTribe": "kele"
+				"ogTribe": "kalo"
+			},
+			{
+				"name": "Rizo",
+				"image": "https://static.wikia.nocookie.net/survivor/images/7/78/S50_rizo_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "vatu"
+			},
+			{
+				"name": "Mike",
+				"image": "https://static.wikia.nocookie.net/survivor/images/d/d9/S50_mike_t.png",
+				"eliminated": false,
+				"hasIdol": false,
+				"hasAdvantage": false,
+				"ogTribe": "kalo"
 			}
 		]
 	}
