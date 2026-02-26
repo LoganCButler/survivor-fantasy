@@ -1,45 +1,89 @@
 document.addEventListener("DOMContentLoaded", function () {
 	fetch('team-data.json')
-		.then(response => response.json())
+		.then(response => {
+			if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+			return response.json();
+		})
 		.then(teamData => {
-				// Update teams with JSON data
-				Object.keys(teamData).forEach(teamId => {
-						updateTeam(teamId, teamData[teamId]);
-				});
-	})
-	.catch(error => console.error('Error fetching team data:', error));
+			if (!teamData || typeof teamData !== 'object') {
+				throw new Error('Invalid team data format');
+			}
+			Object.keys(teamData).forEach(teamId => {
+				updateTeam(teamId, teamData[teamId]);
+			});
+		})
+		.catch(error => {
+			console.error('Error loading team data:', error);
+			displayErrorMessage('Unable to load team data. Please refresh the page.');
+		});
 
-	// Function to create player HTML based on JSON data
-	function createPlayerHTML(player) {
-		return `
-				<div class="player">
-					<img class="${player.ogTribe}" src="${player.image}" alt="${player.name}">
-					<span>
-						${player.name} 
-						${player.hasIdol ? '<div class="material-symbols-outlined advantage-icon">verified_user</div>' : ''}
-						${player.hasAdvantage ? '<div class="material-symbols-outlined advantage-icon">upgrade</div>' : ''}
-						</span>
-					${player.eliminated ? '<span class="eliminated">X</span>' : ''}
-					${player.medicalEvac ? '<span class="material-symbols-outlined medicalEvac" >local_hospital</span>' : ''}
-				</div>	
-			`;
+	function displayErrorMessage(message) {
+		const container = document.querySelector('.team-container');
+		if (container) {
+			const errorDiv = document.createElement('div');
+			errorDiv.style.cssText = 'color: #ff6b6b; text-align: center; padding: 20px; font-size: 16px;';
+			errorDiv.textContent = message;
+			container.appendChild(errorDiv);
+		}
 	}
 
-	// Function to update team information based on JSON data
+	function createPlayerHTML(player) {
+		if (!player || !player.name) {
+			console.warn('Invalid player data:', player);
+			return '';
+		}
+
+		const gameState = player.eliminated ? 'eliminated' : (player.medicalEvac ? 'medical-evac' : 'active');
+
+		return `
+			<div class="player" data-game-state="${gameState}">
+				<img class="${player.ogTribe || ''}" src="${player.image}" alt="${player.name}">
+				<span>
+					${player.name}
+					${player.hasIdol ? '<div class="material-symbols-outlined advantage-icon" title="Has Idol">verified_user</div>' : ''}
+					${player.hasAdvantage ? '<div class="material-symbols-outlined advantage-icon" title="Has Advantage">upgrade</div>' : ''}
+				</span>
+				${player.eliminated ? '<span class="eliminated" title="Eliminated">X</span>' : ''}
+				${player.medicalEvac ? '<span class="material-symbols-outlined medicalEvac" title="Medical Evacuation">local_hospital</span>' : ''}
+			</div>
+		`;
+	}
+
 	function updateTeam(teamId, teamData) {
 		const teamElement = document.getElementById(teamId);
+		if (!teamElement) {
+			console.warn(`Team element not found: ${teamId}`);
+			return;
+		}
+
 		const scoreElement = teamElement.querySelector(".team-score");
+		if (!scoreElement) {
+			console.warn(`Score element not found in team: ${teamId}`);
+			return;
+		}
 
-		// Update team score
-		scoreElement.textContent = teamData.score;
+		if (!teamData || typeof teamData !== 'object') {
+			console.warn(`Invalid team data for ${teamId}`);
+			return;
+		}
 
-		// Create player elements and append to the team container
-		const playerContainer = teamElement.appendChild(document.createElement("div"));
+		const score = teamData.score || 0;
+		scoreElement.textContent = score;
+
+		const playerContainer = document.createElement("div");
 		playerContainer.classList.add("players-container");
 
-		teamData.players.forEach(player => {
-			const playerHTML = createPlayerHTML(player);
-			playerContainer.innerHTML += playerHTML;
-		});
+		if (Array.isArray(teamData.players) && teamData.players.length > 0) {
+			teamData.players.forEach(player => {
+				const playerHTML = createPlayerHTML(player);
+				if (playerHTML) {
+					playerContainer.innerHTML += playerHTML;
+				}
+			});
+		} else {
+			console.warn(`No players found for team: ${teamId}`);
+		}
+
+		teamElement.appendChild(playerContainer);
 	}
 });
