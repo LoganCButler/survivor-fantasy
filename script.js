@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
+	const container = document.querySelector('.team-container');
+	
+	// Show loading state
+	showLoadingState();
+
 	fetch('team-data.json')
 		.then(response => {
 			if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
@@ -8,20 +13,43 @@ document.addEventListener("DOMContentLoaded", function () {
 			if (!teamData || typeof teamData !== 'object') {
 				throw new Error('Invalid team data format');
 			}
+			// Remove loading state
+			hideLoadingState();
+			
 			Object.keys(teamData).forEach(teamId => {
 				updateTeam(teamId, teamData[teamId]);
 			});
 		})
 		.catch(error => {
 			console.error('Error loading team data:', error);
+			hideLoadingState();
 			displayErrorMessage('Unable to load team data. Please refresh the page.');
 		});
 
+	function showLoadingState() {
+		if (container) {
+			container.classList.add('loading');
+			const teams = document.querySelectorAll('.team');
+			teams.forEach(team => {
+				const skeleton = document.createElement('div');
+				skeleton.classList.add('skeleton');
+				team.appendChild(skeleton);
+			});
+		}
+	}
+
+	function hideLoadingState() {
+		if (container) {
+			container.classList.remove('loading');
+			const skeletons = document.querySelectorAll('.skeleton');
+			skeletons.forEach(skeleton => skeleton.remove());
+		}
+	}
+
 	function displayErrorMessage(message) {
-		const container = document.querySelector('.team-container');
 		if (container) {
 			const errorDiv = document.createElement('div');
-			errorDiv.style.cssText = 'color: #ff6b6b; text-align: center; padding: 20px; font-size: 16px;';
+			errorDiv.style.cssText = 'color: #ff6b6b; text-align: center; padding: 20px; font-size: 16px; animation: fadeIn 0.5s ease;';
 			errorDiv.textContent = message;
 			container.appendChild(errorDiv);
 		}
