@@ -45,11 +45,11 @@
 			{
 				"name": "Kyle",
 				"image": "https://static.wikia.nocookie.net/survivor/images/1/1c/S50_kyle_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "vatu",
-				"medicalEvac": true
+				"medicalEvac": false
 			}
 		]
 	},
