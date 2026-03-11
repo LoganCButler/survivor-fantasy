@@ -1,20 +1,20 @@
 {
 	"butlers": {
-		"score": 0,
+		"score": 325,
 		"players": [
 			{
 				"name": "Cirie",
 				"image": "https://static.wikia.nocookie.net/survivor/images/f/f7/S50_cirie_t.png",
 				"eliminated": false,
 				"hasIdol": false,
-				"hasAdvantage": false,
+				"hasAdvantage": true,
 				"ogTribe": "cila"
 			},
 			{
 				"name": "Ozzy",
 				"image": "https://static.wikia.nocookie.net/survivor/images/7/7b/S50_ozzy_t.png",
 				"eliminated": false,
-				"hasIdol": false,
+				"hasIdol": true,
 				"hasAdvantage": false,
 				"ogTribe": "cila"
 			},
@@ -45,7 +45,7 @@
 			{
 				"name": "Kyle",
 				"image": "https://static.wikia.nocookie.net/survivor/images/1/1c/S50_kyle_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "vatu"
@@ -53,7 +53,7 @@
 		]
 	},
 	"elams": {
-		"score": 0,
+		"score": 225,
 		"players": [
 			{
 				"name": "Charlie",
@@ -98,7 +98,7 @@
 			{
 				"name": "Savannah",
 				"image": "https://static.wikia.nocookie.net/survivor/images/9/90/S50_savannah_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "cila"
@@ -106,7 +106,7 @@
 		]
 	},
 	"starks": {
-		"score": 0,
+		"score": 325,
 		"players": [
 			{
 				"name": "Joe",
@@ -120,7 +120,7 @@
 				"name": "Aubry",
 				"image": "https://static.wikia.nocookie.net/survivor/images/8/82/S50_aubry_t.png",
 				"eliminated": false,
-				"hasIdol": false,
+				"hasIdol": true,
 				"hasAdvantage": false,
 				"ogTribe": "vatu"
 			},
@@ -151,7 +151,7 @@
 			{
 				"name": "Jenna",
 				"image": "https://static.wikia.nocookie.net/survivor/images/1/1f/S50_jenna_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "cila"
@@ -159,7 +159,7 @@
 		]
 	},
 	"hamiltons": {
-		"score": 0,
+		"score": 350,
 		"players": [
 			{
 				"name": "Rick",
