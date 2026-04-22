@@ -21,7 +21,7 @@
 			{
 				"name": "Genevieve",
 				"image": "https://static.wikia.nocookie.net/survivor/images/5/5a/S50_genevieve_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "vatu"
@@ -37,7 +37,7 @@
 			{
 				"name": "Coach",
 				"image": "https://static.wikia.nocookie.net/survivor/images/2/22/S50_coach_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "kalo"
@@ -59,7 +59,7 @@
 			{
 				"name": "Charlie",
 				"image": "https://static.wikia.nocookie.net/survivor/images/d/d1/S50_charlie_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "kalo"
@@ -67,7 +67,7 @@
 			{
 				"name": "Angelina",
 				"image": "https://static.wikia.nocookie.net/survivor/images/2/2a/S50_angelina_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "vatu"
@@ -91,7 +91,7 @@
 			{
 				"name": "Colby",
 				"image": "https://static.wikia.nocookie.net/survivor/images/f/f8/S50_colby_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "vatu"
@@ -121,7 +121,7 @@
 				"name": "Aubry",
 				"image": "https://static.wikia.nocookie.net/survivor/images/8/82/S50_aubry_t.png",
 				"eliminated": false,
-				"hasIdol": true,
+				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "vatu"
 			},
@@ -138,13 +138,13 @@
 				"image": "https://static.wikia.nocookie.net/survivor/images/f/f7/S50_stephenie_t.png",
 				"eliminated": false,
 				"hasIdol": false,
-				"hasAdvantage": false,
+				"hasAdvantage": true,
 				"ogTribe": "vatu"
 			},
 			{
 				"name": "Dee",
 				"image": "https://static.wikia.nocookie.net/survivor/images/d/d6/S50_dee_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "kalo"
@@ -173,7 +173,7 @@
 			{
 				"name": "Kamilla",
 				"image": "https://static.wikia.nocookie.net/survivor/images/5/52/S50_kamilla_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "kalo"
@@ -189,7 +189,7 @@
 			{
 				"name": "Chrissy",
 				"image": "https://static.wikia.nocookie.net/survivor/images/4/40/S50_chrissy_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "kalo"
@@ -198,14 +198,14 @@
 				"name": "Rizo",
 				"image": "https://static.wikia.nocookie.net/survivor/images/7/78/S50_rizo_t.png",
 				"eliminated": false,
-				"hasIdol": false,
+				"hasIdol": true,
 				"hasAdvantage": false,
 				"ogTribe": "vatu"
 			},
 			{
 				"name": "Mike",
 				"image": "https://static.wikia.nocookie.net/survivor/images/d/d9/S50_mike_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "kalo"

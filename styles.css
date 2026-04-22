@@ -210,29 +210,31 @@ h2 {
 	transition: var(--transition-smooth);
 }
 
-.player:hover span {
+.player:hover span:not(.eliminated):not(.medicalEvac) {
 	color: var(--secondary-gold);
 }
 
-.eliminated {
+.player .eliminated {
 	position: absolute;
-	top: 50%;
+	top: 55px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: var(--eliminated-red);
 	font-size: 80px;
 	font-weight: bold;
 	text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+	margin-top: 0;
 	animation: fadeIn 0.4s ease;
 }
 
-.medicalEvac {
+.player .medicalEvac {
 	position: absolute;
-	top: 50%;
+	top: 55px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: var(--eliminated-red);
 	font-size: 50px;
+	margin-top: 0;
 	animation: fadeIn 0.4s ease;
 }
 
