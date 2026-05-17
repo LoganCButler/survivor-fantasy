@@ -5,15 +5,15 @@
 			{
 				"name": "Cirie",
 				"image": "https://static.wikia.nocookie.net/survivor/images/f/f7/S50_cirie_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
-				"hasAdvantage": true,
+				"hasAdvantage": false,
 				"ogTribe": "cila"
 			},
 			{
 				"name": "Ozzy",
 				"image": "https://static.wikia.nocookie.net/survivor/images/7/7b/S50_ozzy_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": true,
 				"hasAdvantage": false,
 				"ogTribe": "cila"
@@ -29,7 +29,7 @@
 			{
 				"name": "Emily",
 				"image": "https://static.wikia.nocookie.net/survivor/images/3/32/S50_emily_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "cila"
@@ -75,7 +75,7 @@
 			{
 				"name": "Christian",
 				"image": "https://static.wikia.nocookie.net/survivor/images/0/0a/S50_christian_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "cila"
@@ -136,7 +136,7 @@
 			{
 				"name": "Stephenie",
 				"image": "https://static.wikia.nocookie.net/survivor/images/f/f7/S50_stephenie_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": true,
 				"ogTribe": "vatu"
@@ -165,7 +165,7 @@
 			{
 				"name": "Rick",
 				"image": "https://static.wikia.nocookie.net/survivor/images/8/83/S50_rick_t.png",
-				"eliminated": false,
+				"eliminated": true,
 				"hasIdol": false,
 				"hasAdvantage": false,
 				"ogTribe": "cila"
